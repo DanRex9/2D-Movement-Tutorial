@@ -18,7 +18,7 @@ Now create an scripts folder and create a `C#` name it `Movement` and open it. y
 <img width="846" alt="Screenshot 2025-01-05 at 01 52 08" src="https://github.com/user-attachments/assets/eb3fa2e4-e4d8-4d38-9d8d-7cd41b47cdf6" />
 
 
-#Coding Movement
+# Coding Movement
 Now in our scripts lets create a `Public float` for `speed` and for `Move`
 In our Update` function we are going to set the our Move float to our left and right input keys with this code. This is so when we are in unity at the press of one of these keys it will move in that direction.
 
@@ -35,7 +35,7 @@ Now we can set the velocity of our Rigidbody to a new Vetor2 in which for the x 
 
 <img width="637" alt="Screenshot 2025-01-05 at 02 15 37" src="https://github.com/user-attachments/assets/98a2da9e-6795-4901-91e8-6eeea459cafc" />
 
-#Finishing 
+# Finishing 
 
 Now back in unity select your player and drag our `Movement` script we just wrote and add it as a component into our player and here you can set the speed to what ever you would like, for the sake of testing it you can set it to 7, now click play in Unity and now you should have simple Left & Right 2D Movement. 
 
