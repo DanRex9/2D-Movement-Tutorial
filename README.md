@@ -1,5 +1,5 @@
 # 2D-Movement-Tutorial
-A tutorial on how to add simple 2d movement in unity
+A tutorial on how to add simple 2d left & right movement in unity
 
 # Prerequisites
 Before approaching this tutorial, you will need a current version of Unity and a code editor (such as Microsoft Visual Studio Community) installed and ready to use.
@@ -30,3 +30,15 @@ Now we have to make a reference to our Rigidbody by writting a `private Rigidbod
 
 <img width="818" alt="Screenshot 2025-01-05 at 02 02 55" src="https://github.com/user-attachments/assets/d805d748-ede9-418a-a12e-6a75414e55b9" />
 
+Now we can set the velocity of our Rigidbody to a new Vetor2 in which for the x axis we can multiply our `Move float` by are `speed float` to create left and right movement
+[`Vector2`](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector2.html) and this is all the scripting needed, tour script should now look like this.
+
+<img width="637" alt="Screenshot 2025-01-05 at 02 15 37" src="https://github.com/user-attachments/assets/98a2da9e-6795-4901-91e8-6eeea459cafc" />
+
+#Finishing 
+
+Now back in unity select your player and drag our `Movement` script we just wrote and add it as a component into our player and here you can set the speed to what ever you would like, for the sake of testing it you can set it to 7, now click play in Unity and now you should have simple Left & Right 2D Movement. 
+
+And you are finished.
+
+I got the reference for this tutorial from https://www.youtube.com/watch?v=Azh5QuGLDcU
