@@ -26,7 +26,7 @@ In our Update` function we are going to set the our Move float to our left and r
 <img width="846" alt="Screenshot 2025-01-05 at 01 55 54" src="https://github.com/user-attachments/assets/f90892a4-5829-4cf9-8ccb-635f84938695" />
 
 Now we have to make a reference to our Rigidbody by writting a `private Rigidbody2D rb` at the top and in the `Start` function we can write this line of code to asign it to our player in Unity. 
-Start<https://docs.unity3d.com/2017.1/Documentation/ScriptReference/MonoBehaviour.Start.html> 
+[`Start`](https://docs.unity3d.com/2017.1/Documentation/ScriptReference/MonoBehaviour.Start.html)
 
 <img width="818" alt="Screenshot 2025-01-05 at 02 02 55" src="https://github.com/user-attachments/assets/d805d748-ede9-418a-a12e-6a75414e55b9" />
 
